@@ -1,0 +1,46 @@
+.listContainer {
+  /* margin-top: 10px; */
+  /* padding: 8px 6px; */
+  /* height: 60vh; */
+  width: 80%;
+  margin: 0 auto;
+  padding: 2px 6px;
+  list-style: none;
+  background-color: #a2678a;
+  border-radius: 10px;
+}
+
+.listContainer li {
+  /* list-style: none; */
+  padding: 10px 12px;
+  margin: 14px 8px;
+  border-radius: 10px;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 1);
+}
+.listContainer li input[type="checkbox"] {
+  /* flex-grow: 1; */
+  outline: none;
+  height: 16px;
+  width: 16px;
+}
+.listContainer li input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.listContainer li label {
+  flex-grow: 2;
+  font-size: larger;
+  padding-left: 4px;
+}
+
+.trashIcon {
+  flex-grow: 1;
+  max-width: fit-content;
+  max-height: fit-content;
+  justify-self: flex-end;
+  color: #3f1d38;
+  /* font-size: xx-large; */
+}
